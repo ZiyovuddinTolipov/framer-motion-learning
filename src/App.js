@@ -1,9 +1,9 @@
-import './App.css';
+import Gesture from "./GestureIMG/Gesture";
 
 function App() {
   return (
     <div className="App">
-    Framer Motiom
+    <Gesture />
     </div>
   );
 }

@@ -3,10 +3,11 @@ import { useHotkeys } from 'react-hotkeys-hook';
 
 function ExampleComponent() {
     const [count, setCount] = useState(0)
-    useHotkeys('ctrl+shift+a+c, c, shift+c', () => setCount(prevCount => prevCount + 1))
+    useHotkeys('6', () => setCount(prevCount => prevCount + 1))
+    useHotkeys('a', () => setCount(prevCount => prevCount - 1))
 
     return (
-        <span>Received the combination {count} times.</span>
+        <h1>Received the combination {count} times.</h1>
     )
 }
 export default ExampleComponent;

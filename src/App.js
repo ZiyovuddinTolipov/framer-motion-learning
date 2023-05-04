@@ -1,9 +1,11 @@
-import Gesture from "./GestureIMG/Gesture";
+// import Gesture from "./GestureIMG/Gesture";
+import HotKeys from "./hotkeys/HotKeys";
 
 function App() {
   return (
     <div className="App">
-    <Gesture />
+    {/* <Gesture /> */}
+    <HotKeys />
     </div>
   );
 }

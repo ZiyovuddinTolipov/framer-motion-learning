@@ -7,7 +7,7 @@ function ExampleComponent() {
     useHotkeys('a', () => setCount(prevCount => prevCount - 1))
 
     return (
-        <h1>Received the combination {count} times.</h1>
+        <h1>6-deleted . a plus {count} times.</h1>
     )
 }
 export default ExampleComponent;
